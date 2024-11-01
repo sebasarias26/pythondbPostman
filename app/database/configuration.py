@@ -16,5 +16,3 @@ connectionToDataBase=f"mysql+mysqlconnector://{userName}:{userPassword}@{serverC
 
 engine=create_engine(connectionToDataBase)
 sessionLocal=sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
-
